@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Exercise</title>
+</head>
+<body>
+
+<h1>Register</h1>
+	<form action="">
+	<!-- first name -->
+		<label for="firstName">First Name</label>
+		<input id="firstName" type="text" placeholder="First Name" required>
+	<!-- first name -->
+
+<!-- Last Name -->
+		<label for="lastName">Last Name</label>
+		<input id="firstName" type="text" placeholder="First Name" required>
+<!-- Last Name -->
+	<br>
+<!-- gender BEGINNING-->
+	<!-- male radio option -->
+		<label for="male">Male </label>
+		<input id="male" name="gender" type="radio" value="MALE">
+	<!-- male radio option -->
+
+	<!--  female radio option-->
+		<label for="female">Female </label>
+		<input id="female" name="gender" type="radio" value="FEMALE">
+	<!-- female radio option -->
+
+	<!-- other radio option -->
+		<label for="other">Other </label>
+		<input id="other" name="gender" type="radio" value="OTHER">
+	<!-- other radio option -->
+<!-- gender END-->
+<div>
+<!-- Email BEGINNING -->
+	<label for="email">Email </label>
+	<input id="email" type="email" placeholder="your email" required>
+<!-- Email END -->
+
+<!-- password Beginning -->
+	<label for="password">Password</label>
+	<input type="password" id="password" pattern=".{5,10}" title="5 to 10 characters" required>
+<!-- password END -->
+</div>
+<div>
+<!-- birthday beginning -->
+	<label for="birthday">Birthday </label>
+	<select name="birthday" id="birthday">
+		<option value="month"></option>
+		<option value="day"></option>
+		<option value="year"></option>
+	</select>
+<!-- birthday end -->
+</div>
+
+<!-- checkbox beginning -->
+<div>
+	<label for="checkbox">I agree to the terms and conditions</label>
+	<input type="checkbox" name="checkbox" id="checkbox" />
+</div>
+<!-- checkbox end -->
+<!-- submit -->
+	<input type="submit">
+<!-- submit -->
+	</form>
+</body>
+</html>
