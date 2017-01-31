@@ -10,15 +10,16 @@
 	<form action="">
 	<!-- first name -->
 		<label for="firstName">First Name</label>
-		<input id="firstName" type="text" placeholder="First Name" required>
+		<input name="first" id="firstName" type="text" placeholder="First Name" required>
 	<!-- first name -->
 
 <!-- Last Name -->
 		<label for="lastName">Last Name</label>
-		<input id="firstName" type="text" placeholder="First Name" required>
+		<input name="last" id="firstName" type="text" placeholder="First Name" required>
 <!-- Last Name -->
-	<br>
+	
 <!-- gender BEGINNING-->
+<div>
 	<!-- male radio option -->
 		<label for="male">Male </label>
 		<input id="male" name="gender" type="radio" value="MALE">
@@ -33,28 +34,47 @@
 		<label for="other">Other </label>
 		<input id="other" name="gender" type="radio" value="OTHER">
 	<!-- other radio option -->
+</div>
 <!-- gender END-->
+
 <div>
 <!-- Email BEGINNING -->
 	<label for="email">Email </label>
-	<input id="email" type="email" placeholder="your email" required>
+	<input name="email" id="email" type="email" placeholder="your email" required>
 <!-- Email END -->
 
 <!-- password Beginning -->
 	<label for="password">Password</label>
-	<input type="password" id="password" pattern=".{5,10}" title="5 to 10 characters" required>
+	<input name="password" type="password" id="password" pattern=".{5,10}" title="5 to 10 characters" required>
 <!-- password END -->
 </div>
-<div>
+<>
 <!-- birthday beginning -->
-	<label for="birthday">Birthday </label>
-	<select name="birthday" id="birthday">
-		<option value="month"></option>
-		<option value="day"></option>
-		<option value="year"></option>
-	</select>
+<div>
+	<label>
+		Birthday
+		<select name="month" id="">
+			<option value="">Month</option>
+			<option value="">Jan</option>
+			<option value="">Feb</option>
+			<option value="">Mar</option>
+		</select>
+		<select name="day" id="">
+			<option value="">Day</option>
+			<option value="">1</option>
+			<option value="">2</option>
+			<option value="">3</option>
+		</select>
+		<select name="year" id="">
+			<option value="">Year</option>
+			<option value="">2001</option>
+			<option value="">2002</option>
+			<option value="">2003</option>
+		</select>
+	</label>
+</div>	
 <!-- birthday end -->
-</div>
+
 
 <!-- checkbox beginning -->
 <div>
