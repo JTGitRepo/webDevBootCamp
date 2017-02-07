@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+}
+
+body {
+	min-height: 100%;
+}
+html {
+/*	background: url(http://media.istockphoto.com/photos/green-grass-picture-id507706868?k=6&m=507706868&s=170667a&w=0&h=AQ5ZjYsxhGjiw5cIX3MlukUFU8Z_Z6TQXVliIZ5-LgE=) no-repeat fixed;
+	background-size: cover;
+	-webkit-background-size: cover;*/
+}
+
+
+h1 {
+	margin: 0;
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	border: 3px dotted lightblue;
+
+}
+
+h4 {
+	background: rgb(255, 100, 80);
+}

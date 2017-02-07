@@ -1,0 +1,27 @@
+body {
+	background: orange;
+}
+
+#special {
+	background: blue;
+}
+
+.completed {
+	text-decoration: overline;
+}
+
+#alt[alt] {
+	color: blue;
+	font-family: sans-serif;
+	font-size: 3em;
+	outline: none;
+	border: 0;
+	-webkit-border: 0;
+	text-decoration: none;
+}
+
+.logo {
+	background: url(https://seeklogo.com/images/S/s-h-i-e-l-d-logo-F89847BD30-seeklogo.com.gif) no-repeat left top;
+	height: 200px;
+	width: 200px;
+}
