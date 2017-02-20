@@ -1,0 +1,25 @@
+body {
+	padding-top: 70px;
+
+	}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.navbar-default {
+	background: #64dbd3;
+	/*padding: 5px 0;*/
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+	color: #fdfdfd;
+}
+
+.footer {
+	margin-top: 40px;
+	border-top: solid 1px lightgray;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
