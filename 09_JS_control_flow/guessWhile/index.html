@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>guess while</title>
+</head>
+<body>
+	<script>
+		do {
+			var secretNum = 4;
+			var guess = Number(prompt("Pick a number"));
+			if (guess > secretNum) {
+				alert("To high");
+			} else if (guess < secretNum) {
+				alert("to low")
+			} else {
+				alert("Thats Correct!")
+			}
+		} while ( guess !== secretNum);
+	</script>
+</body>
+</html>
