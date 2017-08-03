@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery effects</title>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+  <style>
+
+  	.outside {
+  		width: 100px;
+  		height: 100px;
+  		background: teal;
+  		float: left;
+  		margin: 20px;
+  	}
+  	.inside {
+  		
+  		color: white;
+  		text-align: center;
+  		font-family: arial;
+  		position: relative;
+		top: 30px;
+  	}
+
+  	.container {
+  		width: 800px;
+  		display: block;
+  	}
+  </style>
+</head>
+<body>
+
+	
+	<div class="container"><div class="outside"><div class="inside">Please don't fade me!</div></div>
+	
+		<div class="outside"><div class="inside">I'm begging you, please!</div></div>
+		<div class="outside"><div class="inside">Help help help!!</div></div>
+	</div>
+<button>click me</button>
+
+	<script>
+
+	$("button").on("click", function(){
+		$(".outside").fadeOut();
+
+	})
+	</script>
+</body>
+</html>

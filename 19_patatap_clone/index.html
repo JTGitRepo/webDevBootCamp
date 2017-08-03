@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>paper js</title>
+	<script type='text/javascript' src="paper-full.js"></script>
+	<link rel="stylesheet" href="circles.css">
+	<script type="text/paperscript" canvas="canvas">
+
+var myPath = new Path();
+myPath.strokeColor = 'black';
+myPath.add(new Point(10, 10));
+myPath.add(new Point(100, 50));	
+myPath.add(new Point(50, 100));	
+myPath.add(new Point(140, 140));	
+myPath.add(new Point(100, 150));	
+</script>
+
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+</body>
+</html>

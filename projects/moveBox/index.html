@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Move Box</title>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+	<style>
+		.container {
+			background: lightgreen;
+			height: 400px;
+			width: 800px;
+		}
+
+		.box {
+			height: 10px;
+			width: 10px;
+			background-color: yellow;
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box"></div>
+	</div>
+
+	<script>
+	$('body').keydown(function(){
+		if(event.which === 39){
+			myMove();
+		}
+	});
+		function myMove() {
+    var elem = document.getElementById("box"); 
+    var pos = 0;
+    // var id = setInterval(frame, 5);
+    function moveRight() {
+        if (pos == 800) {
+            // clearInterval(id);
+        } else {
+            pos++; 
+            elem.style.left = pos + 'px'; 
+        }
+    }
+
+}
+	</script>
+</body>
+</html>

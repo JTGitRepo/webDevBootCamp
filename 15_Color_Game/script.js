@@ -9,7 +9,9 @@ var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
 
 init();
-
+resetButton.addEventListener('click', function(){
+	reset();
+});
 function init(){
 	setUpModeButtons();
 	setupSquares();
@@ -70,9 +72,7 @@ function reset(){
 	h1.style.background = "steelblue";
 };
 
-resetButton.addEventListener('click', function(){
-	reset();
-});
+
 
 
 

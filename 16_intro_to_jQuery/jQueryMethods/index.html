@@ -1,0 +1,146 @@
+<head><style>
+	li:hover {
+		background-color: blue;
+		font-size: 2em;
+		width: 200px;
+		text-align: center;
+	}
+</style></head>
+<ul id="test">
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+</ul>
+
+
+<!--script>
+  var test = document.getElementById("test");
+  
+  
+  // this handler will be executed only once when the cursor moves over the unordered list
+  test.addEventListener("mouseenter", function( event ) {   
+    // highlight the mouseenter target
+    event.target.style.color = "purple";
+
+    // reset the color after a short delay
+    setTimeout(function() {
+      event.target.style.color = "";
+    }, 500);
+  }, false);
+  
+  
+  // this handler will be executed every time the cursor is moved over a different list item
+  test.addEventListener("mouseover", function( event ) {   
+    // highlight the mouseover target
+    event.target.style.color = "orange";
+
+    // reset the color after a short delay
+    setTimeout(function() {
+      event.target.style.color = "";
+    }, 500);
+  }, false);
+</script>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Methods</title>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+  <style>
+  	.correct {
+  		color: yellow;
+  		font-size: 4em;
+  	}
+  	.wrong {
+  		color: red;
+  		background: pink;
+  	}
+
+  	.done {
+  		color: gray;
+  		text-decoration: line-through;
+  	}
+
+  	ul {
+  		height: 200px;
+  	}
+
+  </style>
+</head>
+<body>
+	
+	<h1>jQuery Methods demo Page</h1>
+	<button>toggle</button>
+
+	<input type="text" placeholder="your name">
+	<ul>
+		<li>skittles</li>
+		<li class="correct">starburst</li>
+		<li class="correct">twix</li>
+	</ul>
+
+	<img src="https://img.clipartfest.com/b85bafbd7bd24a13bc16920dd4886287_this-european-pine-marten-pine-marten_1533-2048.jpeg" alt="">
+	<img src="https://img.clipartfest.com/b85bafbd7bd24a13bc16920dd4886287_this-european-pine-marten-pine-marten_1533-2048.jpeg" alt="">
+	<img src="https://img.clipartfest.com/b85bafbd7bd24a13bc16920dd4886287_this-european-pine-marten-pine-marten_1533-2048.jpeg" alt="">
+
+	<script>
+		var toggle= document.querySelector("button");
+		var li = document.querySelector("ul");
+
+		li.addEventListener("mouseover", function( event ) {   
+    // highlight the mouseover target
+    event.target.style.color = "blue";
+
+    // reset the color after a short delay
+    setTimeout(function() {
+      event.target.style.color = "";
+    }, 500);
+  }, false);
+    // highlight the mouseover target
+    // event.target.style.color = "orange";
+// function flash(event){
+				// for(var i = 0; i < li.length; i++) {
+					// event.toggle.classList.toggle("correct");
+					// li[i].classList.toggle("wrong");
+					// isCorrect = false;
+				
+    // reset the color after a short delay
+    // setTimeout(function() {
+      // event.target.style.color = "";
+    // }, 500);
+  // }, false);
+
+	// var isCorrect = false;
+	// 	var li = document.getElementsByTagName("li");
+
+	// 	// toggle.addEventListener("click", function() {
+	// 		// if(isCorrect){
+	// 	// setInterval(flash, 100)
+	// 	toggle.addEventListner("mouseover", flash);	
+	// 			function flash(){
+	// 			for(var i = 0; i < li.length; i++) {
+	// 				li[i].classList.toggle("correct");
+	// 				// li[i].classList.toggle("wrong");
+	// 				// isCorrect = false;
+	// 			}
+	// 		}
+	// 		// } else {
+			// 	for(var i = 0; i < li.length; i++){
+			// 		li[i].classList.remove("correct");
+			// 		li[i].classList.add("wrong");
+			// 		isCorrect = true;
+			// 	}
+				
+
+
+			// }
+		
+
+	</script>
+
+</body>
+</html> -->
